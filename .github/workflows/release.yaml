@@ -1,9 +1,7 @@
 ---
 name: Create Archive
 on:
-  push:
-    branches:
-      - main
+  create:
     tags:
       - 'v*'
 jobs:
