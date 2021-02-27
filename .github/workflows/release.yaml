@@ -17,7 +17,7 @@ jobs:
           filename: 'ansible.alfredworkflow'
           exclusions: '*.git* *img/ test*'
       - name: Upload Release
-          uses: ncipollo/release-action@v1
-          with:
-              artifacts: "ansible.alfredworkflow"
-              token: ${{ secrets.GITHUB_TOKEN }}
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "ansible.alfredworkflow"
+          token: ${{ secrets.GITHUB_TOKEN }}
